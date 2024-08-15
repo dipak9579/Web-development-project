@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Grade Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="calc">
+        <h1>Student Grade Calculator</h1>
+    </div>
+        <div class="subject">
+        <h3>Enter your Top 4 subjects</h3>
+       
+            <label for="Math">Mathematics</label>
+            <input type="text" id="math" name="Math">
+            <br>
+            <label for="sci">Science</label>
+            <input type="text" id="sci" name="sci">
+            <br>
+            <label for="marathi">Marathi</label>
+            <input type="text" id="marathi" name="marathi">
+            <br>
+            <label for="hindi">Hindi</label>
+            <input type="text" id="hindi" name="hindi">
+
+            <button id="btn" onclick="calculate()">Result</button>
+            <h4 id="showData"></h4>
+   
+         </div>
+         <script src="script.js"></script>
+   
+</body>
+</html>
